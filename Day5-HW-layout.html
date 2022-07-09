@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-Layout</title>
+    <style>
+        .container{
+            display: flex   ;
+        }
+        header>h1 {
+            background-color: yellow;
+            border: 2px solid black;
+            /* margin: 10px; */
+            padding:10px;
+        }
+        nav{
+            background-color: rgb(5, 155, 5);
+            padding: 10px;
+            stroke: black;
+            border:2px solid black;
+            /* margin: 10px; */
+        }
+        nav>a{
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav>a:hover{
+            background-color: aquamarine;
+        }
+        main{
+            margin-top: 10px;
+            margin-right: 10px;
+            background-color: rgb(37, 37, 149);
+            color: white;
+            padding: 20px;
+            border: 2px solid black;
+            
+        }
+        main>h2{
+            text-align: center;
+        }
+        section{
+            background-color: rgb(130, 130, 205);
+            border: 2px solid black;
+            padding: 10px;
+        }
+        article{
+            background-color: rgb(190, 190, 115);
+            margin: 20px;
+            text-align: justify;
+            padding: 5px;
+        }
+        aside{
+            background-color: rgb(125, 124, 124);
+            padding: 10px;
+            margin-top: 10px;
+            border: 2px solid black;
+            text-align: center;
+            flex: 2 1500px;
+        }
+
+        footer{
+            margin-top: 10px;
+            background-color: rgb(184, 184, 220);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body >
+    <header><h1>Header</h1></header>
+    <nav>
+        <a href="#"> Link 1 </a>
+        <a href="#"> Link 2 </a>
+        <a href="#"> Link 3 </a>
+        <a href="#"> Link 4 </a>
+        <a href="#"> Link 5 </a>
+    </nav>
+    <div class = "container">
+    <main>
+        <h2>MAIN</h2>
+        <section>
+            <header><h2>SECTION</h2></header>
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aut unde quis odit, itaque atque. Hic aut alias itaque officiis, deserunt delectus ipsa! Sit, tenetur recusandae praesentium unde doloribus officiis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ratione perferendis consectetur minima nemo quod, corrupti ducimus iure maxime ab aliquam blanditiis eum cupiditate voluptate, iusto adipisci ipsum officiis dolorum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consequuntur corporis minus vitae ut sequi voluptates, saepe ad quaerat amet nam fugiat neque! Sequi accusantium totam quia, blanditiis incidunt architecto!
+            </article>
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aut unde quis odit, itaque atque. Hic aut alias itaque officiis, deserunt delectus ipsa! Sit, tenetur recusandae praesentium unde doloribus officiis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ratione perferendis consectetur minima nemo quod, corrupti ducimus iure maxime ab aliquam blanditiis eum cupiditate voluptate, iusto adipisci ipsum officiis dolorum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consequuntur corporis minus vitae ut sequi voluptates, saepe ad quaerat amet nam fugiat neque! Sequi accusantium totam quia, blanditiis incidunt architecto!
+            </article>
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aut unde quis odit, itaque atque. Hic aut alias itaque officiis, deserunt delectus ipsa! Sit, tenetur recusandae praesentium unde doloribus officiis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ratione perferendis consectetur minima nemo quod, corrupti ducimus iure maxime ab aliquam blanditiis eum cupiditate voluptate, iusto adipisci ipsum officiis dolorum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consequuntur corporis minus vitae ut sequi voluptates, saepe ad quaerat amet nam fugiat neque! Sequi accusantium totam quia, blanditiis incidunt architecto!
+            </article>
+        </section>
+    </main>
+    <aside>
+        <header>
+            <h2>
+                Aside
+            </h2>
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere aut unde quis odit, itaque atque. Hic aut alias itaque officiis, deserunt delectus ipsa! Sit, tenetur recusandae praesentium unde doloribus officiis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ratione perferendis consectetur minima nemo quod, corrupti ducimus iure maxime ab aliquam blanditiis eum cupiditate voluptate, iusto adipisci ipsum officiis dolorum.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum consequuntur corporis minus vitae ut sequi voluptates, saepe ad quaerat amet nam fugiat neque! Sequi accusantium totam quia, blanditiis incidunt architecto!
+            </article>
+        </header>
+    </aside>
+</div>
+    </body>
+    <footer>
+        &copy; Copyrights reserved by IBM India
+    </footer>
+</body>
+</html>
